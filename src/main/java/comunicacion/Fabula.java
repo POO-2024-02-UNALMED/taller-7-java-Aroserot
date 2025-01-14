@@ -10,12 +10,12 @@ public class Fabula extends Escrito {
         this.interpretacion = interpretacion;
     }
     
-    public String getEnsenanzas() {
+    public String getEnsenanza() { // Corrigiendo el nombre del método a getEnsenanza
         return ensenanzas;
     }
 
-    public void setEnsenanzas(String ensenanzas) {
-        this.ensenanzas = ensenanzas;
+    public void setEnsenanza(String ensenanza) { // Corrigiendo el nombre del método a setEnsenanza
+        this.ensenanzas = ensenanza;
     }
     
     public String getInterpretacion() {
@@ -42,6 +42,6 @@ public class Fabula extends Escrito {
                this.getTitulo() + "\n" +
                this.getAutor() + "\n" +
                this.getPaginas() + "\n" +
-               this.ensenanzas + "\n";
+               this.ensenanzas;
     }
 }

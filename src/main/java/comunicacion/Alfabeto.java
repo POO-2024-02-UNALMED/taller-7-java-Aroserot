@@ -41,8 +41,6 @@ public class Alfabeto extends Pictograma {
     @Override
     public String toString() {
         return Arrays.stream(letras)
-                     .collect(Collectors.joining(", ")) + "\n" + 
-               this.getOrigen() + "\n" + 
-               this.cantidadLetras() + "\n";
+                     .collect(Collectors.joining(", "));
     }
 }
